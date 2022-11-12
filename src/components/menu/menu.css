@@ -1,0 +1,23 @@
+/* root */
+li {
+  text-decoration: none;
+}
+
+.food-beverages {
+  display: flex;
+}
+
+.food-img {
+  object-fit: cover;
+  width: 24rem;
+}
+
+/* Beverages */
+.tea {
+  display: flex;
+}
+
+/*  */
+.foods {
+  display: flex;
+}
