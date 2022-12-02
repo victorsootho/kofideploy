@@ -6,20 +6,31 @@ import Footer from "../Footer";
 
 function Blog() {
   TabTitle("Patron's Writings");
+
+  const [loading, setLoading] = useState(true);
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const res = await axios.get("/posts");
-      setPosts(res.data);
+      setLoading(true);
+      try {
+        const res = await axios.get("/posts");
+        setPosts(res.data);
+      } catch (error) {
+        console.error(error.message);
+      }
+      setLoading(false);
     };
     fetchPosts();
   }, []);
   return (
     <div>
-      <div>
-        <Posts posts={posts} />
-      </div>
+      {loading && <div>Loading</div>}
+      {!loading && (
+        <div>
+          <Posts posts={posts} />
+        </div>
+      )}
       <div className="mt-28">
         <Footer />
       </div>

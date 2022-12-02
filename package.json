@@ -1,6 +1,8 @@
 {
   "name": "kofikhafetsa",
   "version": "0.1.0",
+  "proxy": "https://kofiserver.onrender.com/api",
+  "homepage": "https://kofideploy.onrender.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,6 +13,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "axios": "^1.1.3",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
@@ -46,6 +49,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.1.8"
-  },
-  "proxy": "https://kofiserver.onrender.com/api/"
+  }
 }
