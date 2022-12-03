@@ -14,7 +14,9 @@ function Blog() {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const res = await axios.get("/posts");
+        const res = await axios.get(
+          "https://kofiserver.onrender.com/api/posts"
+        );
         setPosts(res.data);
       } catch (error) {
         console.error(error.message);
