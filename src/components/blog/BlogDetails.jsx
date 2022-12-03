@@ -12,7 +12,9 @@ function BlogDetails() {
 
   useEffect(() => {
     const getPost = async () => {
-      const res = await axios.get("/posts/" + path);
+      const res = await axios.get(
+        "https://kofiserver.onrender.com/api/posts/" + path
+      );
       setPost(res.data);
     };
     getPost();
