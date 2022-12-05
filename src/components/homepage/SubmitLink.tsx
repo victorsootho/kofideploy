@@ -15,7 +15,7 @@ function SubmitLink() {
           <Link to="/submit">
             <div className=" bg-blue-600 p-2 mt-4 sm:px-1 mx-24 rounded">
               <p className="text-center text-white font-semibold">
-                Write to Us
+                Submit Your Writings
               </p>
             </div>
           </Link>

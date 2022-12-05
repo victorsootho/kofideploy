@@ -1,6 +1,5 @@
 import { TabTitle } from "../../utils/TitleFunctions";
 import Footer from "../Footer";
-import BlogLink from "./BlogLink";
 import MenuLink from "./MenuLink";
 import SubmitLink from "./SubmitLink";
 
