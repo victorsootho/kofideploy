@@ -3,9 +3,12 @@ import { MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="main-footer block">
+    <footer className="main-footer block pt-4">
       <div className="text-center">
-        <div>
+        <h1 className="text-2xl font-bold">Operating Hours</h1>
+        <p className="font-semibold">Monday - Saturday : 8am - 5pm</p>
+        <p className="font-semibold">Closed on Sunday</p>
+        <div className="mt-4">
           <h3 className="text-lg sm:text-3xl sm:mt-4 font-semibold">
             Love Coffee? So Do We
           </h3>

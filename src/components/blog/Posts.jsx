@@ -1,4 +1,4 @@
-import Post from "./Post";
+import { Link } from "react-router-dom";
 
 function Posts({ posts }) {
   return (
@@ -8,7 +8,16 @@ function Posts({ posts }) {
       </h2>
       {posts.map((p) => (
         <div key={p._id}>
-          <Post post={p} />
+          <div className="blog-list lg:mx-96">
+            <div className="blog-preview py-2 px-4 mx-0 border border-gray-100 border-solid">
+              <Link to={`/post/${p._id}`}>
+                <h2 className="text-xl font-semibold text-yellow-900 mb-2">
+                  {p.title}
+                </h2>
+                <p>Written by {p.username}</p>
+              </Link>
+            </div>
+          </div>
         </div>
       ))}
     </div>

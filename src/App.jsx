@@ -6,7 +6,7 @@ import Menu from "./components/menu/Menu";
 import NotFound from "./components/blog/NotFound";
 import Submit from "./components/blog/Submit";
 import Navbar from "./Navbar";
-import Post from "./components/blog/Post";
+import Posts from "./components/blog/Posts";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/submit" element={<Submit />} />
           <Route path="/post/:id" element={<BlogDetails />} />
-          <Route path="/post/:id" element={<Post />} />
+          <Route path="/post/:id" element={<Posts />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

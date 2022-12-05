@@ -23,6 +23,9 @@ module.exports = {
         880: "880px",
         508: "508px",
       },
+      border: {
+        16: "16px",
+      },
       height: {
         80: "80px",
         150: "150px",

@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-100 pb-2">
+    <div className="bg-blue-100 pb-2 sm:pb-0">
       <nav className="px-5 pt-5 items-center my-0 mx-auto max-w-xl sm:flex">
         <h1 className="text-yellow-900 text-center my-2">
           <Link to="/" className="font-dance-script text-2xl">
@@ -10,31 +10,31 @@ const Navbar = () => {
           </Link>
         </h1>
         <div className="ml-auto">
-          <ul className="list-none pl-0 flex justify-center">
-            <Link to="/" className="font-bold">
+          <ul className="list-none pl-0 gap-1 flex justify-center">
+            <NavLink to="/" end className="font-bold">
               <li className="no-underline p-2 hover:bg-yellow-900 hover:text-white rounded">
-                Home
+                <h1>Home</h1>
               </li>
-            </Link>
-            <Link to="/menu" className="font-bold">
+            </NavLink>
+            <NavLink to="/menu" className="font-bold">
               <li className="no-underline p-2 hover:bg-yellow-900 hover:text-white rounded">
                 Menu
               </li>
-            </Link>
-            <Link to="/blog" className="font-bold">
+            </NavLink>
+            <NavLink to="/blog" className="font-bold">
               <li className="no-underline p-2 hover:bg-yellow-900 hover:text-white rounded">
                 Blog
               </li>
-            </Link>
-            <Link to="/submit" className="font-bold">
+            </NavLink>
+            <NavLink to="/submit" className="font-bold">
               <li className="no-underline p-2 hover:bg-yellow-900 hover:text-white rounded">
                 Submit
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
       </nav>
-    </nav>
+    </div>
   );
 };
 
