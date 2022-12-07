@@ -12,7 +12,7 @@ function MenuLink() {
           />
         </div>
         <div>
-          <div className="w-full text-center sm:top-1/3 sm:absolute">
+          <div className="w-full text-center sm:top-1/4 sm:absolute">
             <div className="bg-gray-50 rounded-sm p-8 sm:m-40 lg:m-96">
               <h2 className="text-xl font-semibold">coffee & tea</h2>
               <h2 className="text-xl font-semibold">ice cream & milkshakes</h2>

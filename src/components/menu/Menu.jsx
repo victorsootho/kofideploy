@@ -42,7 +42,7 @@ const Menu = () => {
                   className="rounded font-semibold cursor-pointer bg-blue-300 hover:bg-blue-200 p-2 m-0"
                   onClick={() => scrollToSection(Beverages)}
                 >
-                  Food and Beverages
+                  Food & Beverages
                 </li>
               </ul>
             </div>

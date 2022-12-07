@@ -27,9 +27,29 @@ nav a.active {
 }
 
 /* Homepage */
-.frame {
-  border-top-width: 32px;
-  border-bottom-width: 32px;
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+  .frame {
+    border-top-width: 32px;
+    border-bottom-width: 32px;
+    border-left-width: 0.5rem;
+    border-right-width: 0.5rem;
+  }
+}
+
+/* tablet */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* desktop and laptop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .frame {
+    border-top-width: 4rem;
+    border-bottom-width: 4rem;
+    border-left-width: 16rem;
+    border-right-width: 16rem;
+  }
 }
 
 /* App */
