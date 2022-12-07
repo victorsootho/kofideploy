@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function SubmitLink() {
   return (
     <section>
-      <div className="frame y-0 mx-auto md:p-24 border-blue-400">
+      <div className="frame y-0 mx-auto md:p-24 border-amber-900">
         <div className="mt-0 p-4">
           <div>
             <img
@@ -13,7 +13,7 @@ function SubmitLink() {
             />
           </div>
           <Link to="/submit">
-            <div className="border bg-blue-400 hover:bg-blue-500 p-2 mt-4 sm:px-4 mx-24 rounded">
+            <div className="border bg-amber-900 hover:bg-amber-800 p-2 mt-4 sm:px-4 mx-24 rounded">
               <p className="text-center text-white font-semibold">
                 Submit Your Writings
               </p>
