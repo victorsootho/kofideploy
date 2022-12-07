@@ -32,6 +32,14 @@ nav a.active {
   border-bottom-width: 32px;
 }
 
+/* App */
+.spinner {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

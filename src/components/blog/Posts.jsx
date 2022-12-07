@@ -14,7 +14,9 @@ function Posts({ posts }) {
                 <h2 className="text-xl font-semibold text-yellow-900 mb-2">
                   {p.title}
                 </h2>
-                <p>Written by {p.username}</p>
+                <p>
+                  By <span className="font-semibold">{p.username}</span>
+                </p>
               </Link>
             </div>
           </div>

@@ -29,9 +29,9 @@ function Blog() {
   return (
     <div>
       {loading && (
-        <div className="m-40 md:mx-96 md:mt-48">
+        <div className="spinner mt-24 md:mt-48">
           <ClipLoader
-            className="md:mx-72"
+            className=""
             color="#925e06"
             loading
             size={50}

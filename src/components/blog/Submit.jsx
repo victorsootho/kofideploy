@@ -27,7 +27,7 @@ const Submit = () => {
 
   return (
     <div>
-      <div className="bg-gray-100 rounded m-2 sm:my-16 sm:mx-64">
+      <div className="bg-gray-100 rounded m-2 md:my-16 md:mx-44">
         <div className="text-center my-0 mx-auto max-w-sm">
           <h2 className="text-xl text-orange-800 mb-8 font-semibold py-2">
             Add a New Post
@@ -61,7 +61,7 @@ const Submit = () => {
               type="submit"
               className="bg-yellow-900 hover:bg-yellow-800 text-white p-2 rounded cursor-pointer m-6"
             >
-              Add Blog
+              Add Entry
             </button>
           </form>
         </div>
