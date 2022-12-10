@@ -30,19 +30,19 @@ const Menu = () => {
                   className="rounded font-semibold cursor-pointer bg-blue-300 hover:bg-blue-200 p-2 m-0"
                   onClick={() => scrollToSection(Desserts)}
                 >
-                  Ice-Cream & Milkshakes
+                  Ice-Cream & <br /> Milkshakes
                 </li>
                 <li
                   className="rounded font-semibold cursor-pointer bg-blue-300 hover:bg-blue-200 p-2 m-0"
                   onClick={() => scrollToSection(Specials)}
                 >
-                  View Specials
+                  View <br /> Specials
                 </li>
                 <li
                   className="rounded font-semibold cursor-pointer bg-blue-300 hover:bg-blue-200 p-2 m-0"
                   onClick={() => scrollToSection(Beverages)}
                 >
-                  Food & Beverages
+                  Food & <br /> Beverages
                 </li>
               </ul>
             </div>
